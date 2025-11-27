@@ -11,7 +11,7 @@ string statusAQI(int aqi);
 
 int main (){
 	string hari, ruangan;
-	
+	string statusAQI [6], statusTHI [6], statusco2[6];
 	double pm25[6], co2[6],suhu[6],rh[6];
 	int aqi[6];
 	double thi[6];
