@@ -12,7 +12,7 @@ string rekomendasiHarian(double rataAQI, double rataCO2, double rataTHI);
 
 int main (){
 	string hari, ruangan;
-	
+	cout << "=============== SISTEM PEMANTAUAN KUALITAS UDARA DALAM RUANGAN =============== "<< endl;
 	double pm25[6], co2[6],suhu[6],rh[6];
 	int aqi[6];
 	double thi[6];
